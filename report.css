@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #2B2E39;
+}
+/*scrollbar*/
+::-webkit-scrollbar {
+    z-index: 99;
+    width: 5px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    z-index: 99;
+    background: #232631;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    z-index: 99;
+    background: #FFD145;
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    z-index: 99;
+    background: #555;
+}
+
+.Navbar{
+    background-color: #232631;
+    color: #DCDDDE;
+    font-size: 40px;
+    padding-top: 5px;
+    line-height: 40px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+    z-index: 98;
+}
+.sidebar{
+    background-color: #232631;
+    color: #DCDDDE;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    z-index: 99;
+}
+.lspdpng{
+    margin-top: -70px;
+    width: 100px;
+    height: 100px;
+}
+.home:hover{
+    color: #FFE79E;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+.shield:hover{
+    color: #FFE79E;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+.form:hover{
+    color: #FFE79E;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+.ichome{
+    position: absolute;
+    font-size: 30px;
+    left: 80px;
+    top: 170px;
+}
+.icshield{
+    position: absolute;
+    font-size: 30px;
+    left: 80px;
+    top: 360px;
+}
+.icform{
+    position: absolute;
+    font-size: 30px;
+    left: 80px;
+    top: 540px;
+}
+.form{
+    color: #FFD145;
+}
+.sqsss{
+    padding-right: 10px;
+}
+.sqss{
+    color: #FFD145;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
