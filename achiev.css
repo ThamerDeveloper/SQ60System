@@ -125,7 +125,7 @@
 
 .Nav1{
     width: 1920px;
-    height: 2150px;
+    height: 2800px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -143,6 +143,15 @@
     height: 440px;
     margin-top: 30px;
     margin-left: 30px;
+}
+.achievtxt{
+    margin-top: 50px;
+    margin-right: 50px;
+    color: #DCDDDE;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    width: 800px;
 }
 
 .achiev1{
@@ -164,6 +173,15 @@
     opacity: 1;
 }
 .achiev3{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 1678px;
+    height: 642px;
+    background: #232631 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+.achiev4{
     margin-top: 40px;
     margin-left: 20px;
     width: 1678px;
