@@ -94,6 +94,155 @@ body{
 .sqss{
     color: #FFD145;
 }
+
+.head{
+    width: 900px;
+    height: 207px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.report-box{
+    margin-top: 116px;
+    margin-left: 200px;
+    width: 322px;
+    height: 91px;
+    background: #232631 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1; 
+}
+.report-title{
+    color: #FFD145;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.Nav1{
+    width: 1920px;
+    height: 2150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-back{
+    background-color: #191C26;
+    width: 420px;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.img-box{
+    background-color: black;
+    width: 360px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.report1{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 1678px;
+    height: 642px;
+    background: #232631 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+.report2{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 1678px;
+    height: 642px;
+    background: #232631 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+.report3{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 1678px;
+    height: 642px;
+    background: #232631 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.reporttop{
+    margin-top: 40px;
+    margin-right: 50px;
+    width: 253px;
+    height: 57px;
+    background: #FFD145 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    transition: all 0.3s ease 0s;
+}
+.reporttop:hover{
+    color: #232631;
+    transform: translateY(-3px) scale(1.05);
+}
+.reportbottom{
+    margin-top: 40px;
+    margin-right: 50px;
+    width: 253px;
+    height: 57px;
+    background: #FFD145 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    transition: all 0.3s ease 0s;
+}
+.reportbottom:hover{
+    color: #232631;
+    transform: translateY(-3px) scale(1.05);
+}
+
+.name{
+    position: relative;
+    right: 600px;
+    color: #DCDDDE;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-image: linear-gradient( #FFD145,#ffbb00);
+    box-shadow: 0px 0px 20px #181818;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    padding: 15px;
+    border-radius: 100px;
+  }
+  
+  #myBtn:hover {
+    color: #232631;
+    transform: translateY(-5px) scale(1.05);
+  }
+
 a:link {
     text-decoration: none;
   }
