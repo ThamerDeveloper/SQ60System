@@ -46,7 +46,7 @@ function msaad614() {
   var width = 0;
   var id = setInterval(frame, 25);
   function frame() {
-    if (width >= 72) {
+    if (width >= 85) {
       clearInterval(id);
     } else {
       width++; 
@@ -88,7 +88,7 @@ function jackr602() {
   var width = 0;
   var id = setInterval(frame, 25);
   function frame() {
-    if (width >= 55) {
+    if (width >= 70) {
       clearInterval(id);
     } else {
       width++; 
@@ -130,7 +130,7 @@ function leon612() {
   var width = 0;
   var id = setInterval(frame, 25);
   function frame() {
-    if (width >= 50) {
+    if (width >= 75) {
       clearInterval(id);
     } else {
       width++; 
